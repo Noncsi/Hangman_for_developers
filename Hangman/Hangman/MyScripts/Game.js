@@ -1,4 +1,4 @@
-﻿var lives = 5;
+﻿var lives = 6;
 
 // append letters
 var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
@@ -31,9 +31,20 @@ $('.letterToSelect').click(function () {
     $(this).css("cursor", "default");
     var guess = $(this).text();
     for (var i = 0; i < randomWord.length; i++) {
-        if (randomWord[i].toUpperCase() == guess) {
+        if (randomWord[i].toUpperCase() == guess) { // success
             currentStateOfLines = currentStateOfLines.substring(0-1, i) + guess + currentStateOfLines.substring(i+1, randomWord.length);
             $('#blank-lines').text(currentStateOfLines);
+            if (currentStateOfLines.includes("_")) { }
+            else {
+                $("#definition").append(definition);
+            }
+        }
+    }
+    if (currentStateOfLines.includes(guess)) { }
+    else { // fail
+        lives--;
+        if (lives == 0) {
+            alert("game over");
         }
     }
 });
