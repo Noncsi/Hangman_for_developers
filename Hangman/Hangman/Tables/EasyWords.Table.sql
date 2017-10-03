@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Easy]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [word] NVARCHAR(50) NOT NULL, 
+    [definition] NVARCHAR(MAX) NOT NULL
+)

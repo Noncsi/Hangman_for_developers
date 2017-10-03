@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="row level-buttons">
+    <div class="col-md-4">
+        @Html.ActionLink("Easy", "EasyGame", "Home", new { @class = "levelButton" })
+        <div class="ver-center"><h4>If you're newbie in programming, and you need practice with technical language.</h4></div>
+    </div>
+    <div class="col-md-4">
+        @Html.ActionLink("Medium", "MediumGame", "Home", new { @class = "levelButton" })
+        <div class="ver-center">
+            <h4>At least one year in programming, but hey It's just a game so don't make expectations...</h4></div>
+        </div>
+    <div class="col-md-4">
+        @Html.ActionLink("Hard", "HardGame", "Home", new { @class = "levelButton" })
+        <div class="ver-center">
+            <h4>Words even Dennis Ritchie didn't know their meanings</h4></div>
+        </div>
+</div>
