@@ -1,6 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace Hangman.Controllers
 {
@@ -9,23 +7,6 @@ namespace Hangman.Controllers
         public ActionResult Index()
         {          
             return View();
-        }
-
-        public ActionResult About()
-        {
-            ViewBag.Message = "About the game.";
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Contact me.";
-            return View();
-        }
-
-        public ActionResult EasyGame()
-        {
-            return View("GameField");
         }
     }
 }

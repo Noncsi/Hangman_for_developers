@@ -1,4 +1,4 @@
-﻿var testObject = [
+﻿var easy = [
     [ "Algorithm", "A set of logical or mathematical procedures to solve a problem" ],
     [ "Function", "A set of instructions which are written once to obtain a particular result, and can then be used whenever necessary by 'calling' it." ],
     [ "Iteration", "A sequence of instructions which are repeated. For example, to perform an action for every item in a list you would 'iterate' over that list. Each time it is repeated is one iteration." ],
@@ -24,4 +24,19 @@
     [ "While", "A while loop or repeat loop is a loop statement in programming that performs pre-defined tasks while in the process of doing something else." ],
     [ "Argument", "Sometimes abbreviated as arg, when referring to programming or the command line an argument is a value that is passed into a command, function, or routine." ],
     [ "Compile", "Compile is the process of creating an executable program from code written in a compiled programming language. Compiling allows the computer to run and understand the program without the need of the programming software used to create it." ]
-    ];
+];
+
+var medium = [
+    ["Encapsulation", "Encapsulation is an attribute of an object, and it contains all data which is hidden. That hidden data can be restricted to the members of that class. Levels are Public, Protected, Private, Internal and Protected Internal."],
+    ["Polymorphism", "Polymorphism is a concept, which allows us to redefine the way something works, by either changing how it is done or by changing the parts using which it is done. Both the ways have different terms for them."],
+    ["Inheritance", "Inheritance is a way to reuse once written code again and again. The class which is inherited is called base calls & the class which inherits is called derived class. So when, a derived class inherits a base class, the derived class can use all the functions which are defined in base class, hence making code reusable."],
+    ["Destructor", "Destructor is a method which is automatically called when the object is made of scope or destroyed. Destructor name is also same as class name but with the tilde symbol before the name."],
+    ["Constructor", "Constructor is a method used to initialize the state of an object, and it gets invoked at the time of object creation. Rules forconstructor are: Constructor Name should be same as class name, Constructor must have no return type."],
+    ["Virtual function", "Virtual functions are member functions whose behavior can be overridden in derived classes."],
+    ["Overloading", "Overloaded functions enable programmers to supply different semantics for a function, depending on the types and number of arguments."],
+    ["Abstract class", "An abstract class is a class which cannot be instantiated. Creation of an object is not possible withabstract class , but it can be inherited. An abstract class can contain only Abstract method."],
+    ["Overriding", "Method overriding is a feature that allows sub class to provide implementation of a method that is already defined in the main class. This will overrides the implementation in the superclass by providing the same method name, same parameter and same return type."],
+    ["Interface", "An interface is a collection of abstract method.If the class implements an inheritance, and then thereby inherits all the abstract methods of an interface."]
+    ["Access modifier", "Access modifiers are keywords used to specify the declared accessibility of a member or a type. The four access modifiers: public, protected, internal, private"],
+    ["Copy constructor", "The copy constructor is a constructor which creates an object by initializing it with an object of the same class, which has been created previously."],
+]
